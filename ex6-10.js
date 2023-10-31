@@ -1,1 +1,1 @@
-function imgchange1(){document.getElementById('logo').src='./image/2.png';}
+function imgchange1(){document.getElementById('who610').src='./image/2.png';}
