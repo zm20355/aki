@@ -5,5 +5,6 @@ function determineLeapYear(){
  {
    answer711='閏年';}else{answer711 = '平年';
  }  
+ document.getElementById('answer7112').innerText = '西暦' + year + '年は' + answer711;
  alert('西暦' + year + '年は' + answer711);
 }
