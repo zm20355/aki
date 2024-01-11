@@ -1,9 +1,9 @@
-function tosi(){
- var nenn = Number(document.getElementById('seirekinenn').value);
- var tosi2;  
- if ((nenn % 4 == 0 && nenn % 100 != 0 )|| nenn % 400 == 0)
+function determineLeapYear(){
+ var year = Number(document.getElementById('year').value);
+ var answer711;  
+ if ((year % 4 == 0 && nenn % 100 != 0 )|| year % 400 == 0)
  {
-   tosi2='閏年';}else{tosi2 = '平年';
+   answer711='閏年';}else{answer711 = '平年';
  }  
- alert('西暦' +nenn+ '年は' + tosi2);
+ alert('西暦' + year + '年は' + answer711);
 }
