@@ -11,6 +11,5 @@ function BMI2() {
     } else {
         bunrui = '肥満';
     }
-
-    alert('あなたのBMIは ' + bmi2 + ' です。この数値は「' + bunrui + '」の範囲に分類されます。');
+ alert('あなたのBMIは ' + bmi2 + ' です。この数値は「' + bunrui + '」の範囲に分類されます。');
 }
